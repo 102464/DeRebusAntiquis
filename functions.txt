@@ -1,0 +1,69 @@
+Printed on Ubuntu 16.04 (Linux) by ibex_find, Mac version seems to have problems with mmap.
+
+TARGET_BASEADDR 0x9ff00000
+IBOOT_LEN 0xff000
+end 0x9ffff000
+
+===========ibex===========
+printf = 0x9ff326e5
+snprintf = 0x9ff32d39
+malloc = 0x9ff19e85
+free = 0x9ff19f35
+memmove = 0x9ff331c8
+jumpto = 0x9ff1fd0d
+aes_crypto_cmd = 0x9ff22165
+enter_critical_section = 0x9ff200d5
+exit_critical_section = 0x9ff20141
+h2fmi_select = 0x9ff0316d
+create_envvar = 0x9ff186ad
+fs_mount = 0x9ff24739
+fs_loadfile = 0x9ff249b5
+panic = 0x9ff1ff9d
+main = 0x9ff00be5
+task_create = 0x9ff206ad
+bdev_stack = 0x9ff44f5c
+image_list = 0x9ff4240c
+
+==========cyanide=========
+aes_crypto_cmd = 0x9ff22165
+free = 0x9ff1a261
+fs_mount = 0x9ff247c6
+cmd_ramdisk = 0x0
+cmd_go = 0x9ff01178
+image_load = 0x9ff1aeba
+fsboot = 0x9ff00ae5
+kernel_load = 0x9ff1c1d6
+task_yield = 0x9ff206f5
+default_block_write = 0x9ff18061
+populate_images = 0x9ff1b019
+uart_read = 0x9ff1669d
+uart_write = 0x9ff165e1
+task_create = 0x0
+task_exit = 0x9ff20865
+fs_open = 0x0
+dma_set_aes = 0x9ff02211
+dma_generate_segments = 0x9ff01c41
+dma_generate_aes_segments = 0x9ff01c41
+dma_cancel = 0x9ff02135
+dma_continue_async = 0x9ff01c41
+dma_int_handler = 0x9ff01f75
+cdma_init = 0x9ff01915
+aes_hw_crypto_cmd = 0x9ff02421
+displaypipe_init = 0x9ff02bca
+h2fmi_wait_dma_task_pending = 0x9ff054ed
+h2fmi_pio_read_sector = 0x9ff0575d
+h2fmi_pio_write_sector = 0x9ff057f9
+h2fmi_wait_done = 0x9ff05441
+_memalign = 0x9ff1a065
+_malloc = 0x9ff19e85
+exit_critical_section = 0x9ff20141
+enter_critical_section = 0x9ff200d5
+sha1_calculate = 0x9ff22c05
+nand_read_block_hook = 0x9ff27a01
+uart_set_mode = 0x9ff16345
+uart_set_flow_control = 0x9ff16179
+uart_set_baud_rate = 0x9ff16505
+hfs_init = 0x9ff18cc9
+h2fmiReadBootpage = 0x9ff04c6d
+h2fmiWriteBootpage = 0x9ff04e7c
+
